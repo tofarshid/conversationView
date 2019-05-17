@@ -41,7 +41,7 @@ img.avatar {
 }
 .avatar-details {
   display: inherit;
-  padding: 15px 0px 10px 0px;
+  padding: 13px 0px 12px 0px;
   font-weight: bold;
   font-size: 10px;
 }
@@ -65,13 +65,12 @@ img.avatar {
 }
 .title-link-data { padding-left: 5px; }
 
-.assigned span {
+.assigned button {
   background: #fff;
-  display: block;
+
   padding: 5px 10px;
   font-size: 12px;
   border: 1px solid #E6E6E6;
-  width: 205px;
 }
 .description p {
   margin-top: 0px;
@@ -101,6 +100,8 @@ img.avatar {
 
 .details { padding: 0px; }
 
+.details-padding-responsive { padding-bottom: 10px; }
+
 @media only screen and (min-width: 601px) {
 
   .header {
@@ -122,13 +123,14 @@ img.avatar {
     padding-right: 10px;
   }
   .section { padding-left: 10px; }
-  .section.first { background: #fff; }
+  .section.first { background: #fff; margin-bottom: 5px;}
 
   .details {
     background: #FCF4E8;
     padding: 20px 20px 10px 20px;
     border: 1px solid #EBD9C2;
   }
+  .details-padding-responsive { padding-bottom: 20px; }
 }
 
 
