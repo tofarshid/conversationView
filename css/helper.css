@@ -3,20 +3,22 @@
 .clearfix { clear: both; }
 
 .v-top { vertical-align: top; }
+
 .p-5 { padding: 5px; }
 .pt-10 { padding-top: 10px; }
 .pt-20 { padding-top: 20px; }
 .pr-5 { padding-right: 5px; }
+.pr-15 { padding-right: 15px; }
 .pb-5 { padding-bottom: 5px; }
 .pb-10 { padding-bottom: 10px; }
 .pb-15 { padding-bottom: 15px; }
 .pb-20 { padding-bottom: 20px; }
+
 .text-center { text-align: center; }
-.pr-15 { padding-right: 15px; }
+
 .plr-small { padding-left: 5px;  padding-right: 5px; }
 
-.mb-5 { margin-bottom: 5px; }
 .mb-0 { margin-bottom: 0px; }
-
-
+.mb-5 { margin-bottom: 5px; }
+.mb-10 { margin-bottom: 10px; }
 .date { color: #aeaeae; font-size: 12px; padding-top: 2px; }
